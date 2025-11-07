@@ -17,6 +17,10 @@ class SplashScreenPage extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.pink,
+                image: DecorationImage(
+                  image: AssetImage("assets/images/bubbles1.jpg"),
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ],
