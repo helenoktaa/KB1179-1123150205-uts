@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screen/splash_screen_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: "NIM: 1123150205, Helen",
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink)
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
       ),
-      home: const SplashScreenPage,
+      home: const SplashScreenPage(),
     );
   }
 }
