@@ -23,6 +23,16 @@ class SplashScreenPage extends StatelessWidget {
                 ),
               ),
             ),
+            Text(
+              "Hey There!",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            Text(
+              "Ready to explore Ilen Page?",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal),
+            ),
+            SizedBox(height: 10),
           ],
         ),
       ),
