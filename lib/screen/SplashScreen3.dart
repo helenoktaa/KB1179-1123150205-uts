@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SplashScreenPage extends StatelessWidget {
-  const SplashScreenPage({super.key});
+class SplashScreen3 extends StatelessWidget {
+  const SplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,17 +18,18 @@ class SplashScreenPage extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.pink,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/bubbles1.jpg"),
+                  image: AssetImage("assets/images/bubbles3.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
+            SizedBox(height: 10),
             Text(
-              "Hey There!",
+              "Let’s Get Started",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             Text(
-              "Ready to explore Ilen Page?",
+              "Your page, your world, your story.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14,
@@ -36,7 +37,7 @@ class SplashScreenPage extends StatelessWidget {
                 color: Colors.pink,
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 15),
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -46,25 +47,25 @@ class SplashScreenPage extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
+                    color: Color(0xFFedede9),
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFedede9),
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
                     color: Color(0xFFE91E63),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color(0xFFedede9),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color(0xFFedede9),
                   ),
                 ),
               ],

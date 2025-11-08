@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_aplikasi_mobile/screen/SplashScreen3.dart';
 
 class SplashScreen2 extends StatelessWidget {
   const SplashScreen2({super.key});
@@ -18,11 +19,12 @@ class SplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.pink,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/bubbles1.jpg"),
+                  image: AssetImage("assets/images/bubbles.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
+            SizedBox(height: 10),
             Text(
               "Discover Your Space",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -36,7 +38,7 @@ class SplashScreen2 extends StatelessWidget {
                 color: Colors.pink,
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 15),
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -78,6 +80,10 @@ class SplashScreen2 extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
                     //route ==> MaterialPageRoute
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SplashScreen3()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFFE91E63),

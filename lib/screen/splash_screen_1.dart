@@ -24,6 +24,7 @@ class SplashScreenPage extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 10),
             Text(
               "Hey There!",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -37,7 +38,7 @@ class SplashScreenPage extends StatelessWidget {
                 color: Colors.pink,
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 15),
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -79,12 +80,10 @@ class SplashScreenPage extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
                     //route ==> MaterialPageRoute
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SplashScreen2(),
-                        ),
-                      );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SplashScreen2()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFFE91E63),
