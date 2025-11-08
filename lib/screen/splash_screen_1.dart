@@ -55,7 +55,7 @@ class SplashScreenPage extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFE91E63),
+                    color: Color(0xFFedede9),
                   ),
                 ),
                 SizedBox(width: 10),
@@ -64,10 +64,30 @@ class SplashScreenPage extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFE91E63),
+                    color: Color(0xFFedede9),
                   ),
                 ),
               ],
+            ),
+            SizedBox(height: 15),
+            Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    //route ==> MaterialPageRoute
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xFFE91E63),
+                  ),
+                  child: Text(
+                    "Continue",
+                    style: TextStyle(fontSize: 14, color: Colors.white),
+                  ),
+                ),
+              ),
             ),
           ],
         ),
