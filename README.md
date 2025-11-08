@@ -2,7 +2,7 @@
 
 **Nama Lengkap:** Helen Oktaviani  
 **NIM:** 1123150205  
-**Kelas / Prodi:** Teknik Informatika – Konsentrasi Software Engineering
+**Prodi:** TI SE 23 M
 
 ---
 
