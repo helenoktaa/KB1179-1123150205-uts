@@ -5,6 +5,21 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(20.0),
+          child: const Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SizedBox(height: 10),
+              Icon(Icons.lock_outline, size: 80, color: Colors.pink),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
