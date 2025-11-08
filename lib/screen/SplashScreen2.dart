@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uts_aplikasi_mobile/screen/SplashScreen2.dart';
 
-class SplashScreenPage extends StatelessWidget {
-  const SplashScreenPage({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +24,11 @@ class SplashScreenPage extends StatelessWidget {
               ),
             ),
             Text(
-              "Hey There!",
+              "Discover Your Space",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             Text(
-              "Ready to explore Ilen Page?",
+              "Everything you need, in one simple page.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14,
@@ -47,7 +46,7 @@ class SplashScreenPage extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFE91E63),
+                    color: Color(0xFFedede9),
                   ),
                 ),
                 SizedBox(width: 10),
@@ -56,7 +55,7 @@ class SplashScreenPage extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFedede9),
+                    color: Color(0xFFE91E63),
                   ),
                 ),
                 SizedBox(width: 10),
@@ -79,12 +78,6 @@ class SplashScreenPage extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
                     //route ==> MaterialPageRoute
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SplashScreen2(),
-                        ),
-                      );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFFE91E63),
